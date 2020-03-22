@@ -1,0 +1,123 @@
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+
+#main-header img {
+  width: 100%;
+  height: 395px;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item .fa {
+  font-size: 2em;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+.ho {
+  background-color: #fff;
+  color: #000;
+}
+.progress {
+  margin: 10px;
+}
+.hom {
+  background-color: #fff;
+}
+.resum {
+  background-color: #fff;
+}
+.res {
+  background-color: #fff;
+}
+.fg {
+  background-color: #fff;
+}
+.next {
+  background-color: #fff;
+}
+.input-group-addon.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+.btn {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group-addon:not(:last-child) {
+  border-right: 0;
+}
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+  display: flex;
+  align-items: center;
+}
+.input-group-addon {
+  padding: 8px 16px;
+  border-radius: 3px;
+  width: 45px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+  .mobile-flex {
+    flex-direction: column;
+  }
+
+  #main-header .port-item {
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon{
+    width: 80px;
+    padding-left: 10px;
+}
+}
+@media (min-width: 411px) and (max-width: 991px) {
+    #main-header .port-item {
+      width: 25%;
+      text-align: center;
+  
+    }
+    #main-header img {
+        width: 100%;
+        height: 462px;
+      }
+      
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.icon{
+    width: 100px;
+    padding-left: 30px;
+}
+}
